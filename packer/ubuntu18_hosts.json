@@ -2,7 +2,7 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "/home/albert/infra_example/hosts/packer/key.json",
+            "service_account_key_file": "/home/albert/infra_example/packer/key.json",
             "folder_id": "b1gjglol49ga8tkukjdk",
             "source_image_family": "ubuntu-1804-lts",
             "image_name": "for-hosts-{{timestamp}}",
